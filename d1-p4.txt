@@ -1,0 +1,31 @@
+num =int(input("enter a num"))
+temp = num
+reverse = 0
+while temp > 0:
+    remainder = temp % 10
+    reverse = (reverse * 10) + remainder
+    temp = temp // 10
+if num == reverse:
+  print('Palindrome')
+else:
+  print("Not Palindrome")
+
+
+.
+
+=============== RESTART: C:/Users/mahic/OneDrive/Desktop/d1-p4.py ==============
+enter a num121
+Palindrome
+
+=============== RESTART: C:/Users/mahic/OneDrive/Desktop/d1-p4.py ==============
+enter a num-121
+Not Palindrome
+
+=============== RESTART: C:/Users/mahic/OneDrive/Desktop/d1-p4.py ==============
+enter a num10
+Not Palindrome
+
+=============== RESTART: C:/Users/mahic/OneDrive/Desktop/d1-p4.py ==============
+enter a num0
+Palindrome
+
